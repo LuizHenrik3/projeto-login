@@ -18,7 +18,7 @@ main{
     width: 100vw;
 }
 
-section#Login{
+section#login{
 position: absolute;
 top: 50%;
 left: 50%;
@@ -32,15 +32,24 @@ overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.829);
 }
 
-section#Login > div#imagem {
+section#login > div#imagem {
     display: block;
     background: purple url(../projeto-login/imagens/pexels-allan-feitor-7555343.jpg) no-repeat;
     height: 200px;
     background-size: cover;
 }
 
-section#Login > div#formulario{
+section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    font-size: 2em;
+}
+
+
+div#formulario > p {
+    font-size: 1.2em;
 }
 
